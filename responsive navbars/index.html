@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height : 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #1a1a1a;
+            color : #fff;
+        }
+        .navbar{
+            /* height : 70px; */
+            width : 80%;
+            border : 2px solid greenyellow;
+            padding : 20px;
+            position: relative;
+            display: flex;
+            justify-content : space-between;
+            align-items : center;
+        }
+        .nav-links{
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            display: flex;
+            gap : 16px;
+        }
+        .nav-links li a{
+            text-decoration : none;
+            color : #fff;
+        }
+        .menu-btn{
+            display: none;
+            border : none;
+            background: none;
+            cursor : pointer;
+            font-size : 24px;
+        }
+        @media(max-width : 392px){
+            .menu-btn{
+                display: block;
+            }
+            .nav-links{
+                display: none;
+                position: absolute;
+                top : 100%;
+                left : 0%;
+                width: 100%;
+                background-color: green;
+                flex-direction: column;
+                gap : 16px;
+                padding : 16px;
+            }
+        }
+        .navbar.active .nav-links{
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <h3>Logo</h3>
+        </div>
+        
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+        <button class = "menu-btn">
+            ☰
+        </button>
+        
+    </nav>
+
+    <script>
+        const navbar = document.querySelector(".navbar");
+        const menuBtn = document.querySelector(".menu-btn");
+        menuBtn.addEventListener("click",()=>{
+            navbar.classList.toggle("active");
+            if(navbar.classList.contains("active")){
+                menuBtn.textContent = "✕";
+            }
+            else{
+                menuBtn.textContent = "☰";
+            }
+        })
+    </script>
+</body>
+</html>
