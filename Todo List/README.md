@@ -45,4 +45,4 @@ You only need a modern web browser (like Chrome, Firefox, or Edge) to run this p
 
 ## ✍️ Author
 
-* **Harsh Dutt Sharma** - *B.Tech CSE* - [GitHub Profile](https://github.com)
+* **Harsh Dutt Sharma** - *B.Tech CSE* - [GitHub Profile](https://github.com/Harsh-Dutt-Sharma)
