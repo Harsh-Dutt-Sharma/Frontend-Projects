@@ -6,6 +6,7 @@ Welcome to my personal frontend development playground! This repository serves a
 
 This repository acts as a monorepo containing the following standalone frontend projects:
 
+* **🧠 Quiz App:** An interactive, multiple-choice quiz system that dynamically renders questions and tracks states.
 * **🛒 E-Commerce:** An interactive product listing page featuring a dynamic shopping cart state management system.
 * **💰 Expense-Tracker:** A financial monitoring dashboard that logs expenses and calculates running totals live.
 * **📝 Todo List:** A minimalist task management application equipped with persistent data tracking.
@@ -31,8 +32,7 @@ To explore or run any of these applications locally on your machine:
    cd your-repo-name
    ```
 3. **Open a project**:
-   Navigate into any project folder (e.g., `cd Weather-App`) and open its respective `index.html` file in your preferred web browser.
-   
+   Navigate into any project folder (e.g., `cd Quiz-App`) and open its respective `index.html` file in your preferred web browser.
 
 ## ✍️ Author
 
