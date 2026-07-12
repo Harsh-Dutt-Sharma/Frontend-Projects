@@ -11,6 +11,7 @@ This repository acts as a monorepo containing the following standalone frontend 
 * **💰 Expense-Tracker:** A financial monitoring dashboard that logs expenses and calculates running totals live.
 * **📝 Todo List:** A minimalist task management application equipped with persistent data tracking.
 * **🌤️ Weather Dashboard:** A multi-city weather tracking panel that allows users to manage a bookmarked watchlist and load real-time global weather updates.
+* **🔐 Sign-Up Form:** A clean registration interface with deep-shadow styling, designed to accept user credentials.
 * **📱 Responsive Navbars:** A dedicated layout sub-project showcasing smooth, modern mobile-responsive navigation systems.
 
 ## 🛠️ Core Technologies Used
@@ -25,15 +26,15 @@ To explore or run any of these applications locally on your machine:
 
 1. **Clone the portfolio repository**:
    ```bash
-   git clone https://github.com
+   git clone github.com
    ```
 2. **Navigate into the repository directory**:
    ```bash
-   cd your-repo-name
+   cd Frontend-Projects
    ```
 3. **Open a project**:
-   Navigate into any project folder (e.g., `cd Weather-Dashboard`) and open its respective `index.html` file in your preferred web browser.
+   Navigate into any project folder (e.g., `cd Sign-Up-Form`) and open its respective `index.html` file in your preferred web browser.
 
 ## ✍️ Author
 
-* **Harsh Dutt Sharma** - *B.Tech CSE* - [GitHub Profile](https://github.com/Harsh-Dutt-Sharma)
+* **Harsh Dutt Sharma** - *B.Tech CSE* - [GitHub Profile](https://github.com)
