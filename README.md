@@ -10,7 +10,8 @@ This repository acts as a monorepo containing the following standalone frontend 
 * **🛒 E-Commerce:** An interactive product listing page featuring a dynamic shopping cart state management system.
 * **💰 Expense-Tracker:** A financial monitoring dashboard that logs expenses and calculates running totals live.
 * **📝 Todo List:** A minimalist task management application equipped with persistent data tracking.
-* **🌤️ Weather Dashboard:** A multi-city weather tracking panel that allows users to manage a bookmarked watchlist and load real-time global weather updates.
+* **🌤️ Weather Dashboard:** A multi-city weather tracking panel that allows users to manage a bookmarked watchlist, view accurate climate metrics, and load real-time global weather updates dynamically via API.
+* **🌦️ Weather App:** A sleek, single-city interface that fetches and displays live meteorological conditions using an external weather API.
 * **🔐 Sign-Up Form:** A clean registration interface with deep-shadow styling, designed to accept user credentials.
 * **📱 Responsive Navbars:** A dedicated layout sub-project showcasing smooth, modern mobile-responsive navigation systems.
 
@@ -33,8 +34,8 @@ To explore or run any of these applications locally on your machine:
    cd Frontend-Projects
    ```
 3. **Open a project**:
-   Navigate into any project folder (e.g., `cd Sign-Up-Form`) and open its respective `index.html` file in your preferred web browser.
+   Navigate into any project folder (e.g., `cd Weather-App` or `cd Weather-Dashboard`) and open its respective `index.html` file in your preferred web browser.
 
 ## ✍️ Author
 
-* **Harsh Dutt Sharma** - *B.Tech CSE* - [GitHub Profile](https://github.com)
+* **Harsh Dutt Sharma** - *B.Tech CSE* - [GitHub Profile](https://github.com/Harsh-Dutt-Sharma)
